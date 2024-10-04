@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Roboto-black";
+    src: url(Fonts/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-blackItalic";
+    src: url(Fonts/Roboto-BlackItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(Fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-BoldItalic";
+    src: url(Fonts/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url(Fonts/Roboto-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(Fonts/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-LightItalic";
+    src: url(Fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(Fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-MediumItalic";
+    src: url(Fonts/Roboto-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(Fonts/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto-ThinItalic";
+    src: url(Fonts/Roboto-ThinItalic.ttf) format('truetype');
+}
+
+
+body {
+    font-family: "Roboto-Regular", sans-serif;
+    Margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #001a33;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 20px 0;
+    font-size: 50px;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.overskrift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001a33;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    gap: 100px;
+}
+
+.overskrift-tekst {
+    max-width: 50%;
+}
+.overskrift-tekst h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.overskrift-tekst p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.overskrift-tekst button {
+    background-color: #8080ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.overskrift-tekst button:hover {
+    background-color: #b3b3ff;
+}
+
+.overskrift-bilde img {
+    width: 400px;
+    height: auto;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.seksjon2{
+    background-color: whitesmoke;
+}
+h2 {
+    font-size: 30px;
+    color: black;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.kullgrill, .gassgrill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0px 0;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kullgrill p, .gassgrill p {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 400px;
+
+
+}
+
+.boks {
+    flex: 1;
+    width: 300px;
+    height: 150px;
+    border: 4px solid navy;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: white;
+    max-width: 300px;
+}
+
+.quote {
+    background-color: lightgray;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-left: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.quote-tekst{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: "Roboto-LightItalic", sans-serif;
+    text-shadow: 3px 3px 7px black;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.signup {
+    background-color: mediumblue;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightcyan;
+}
+
+.signup-text {
+    flex: 1;
+    padding-right: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.signup-text h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.signup-text p {
+    font-size: 16px;
+    margin: 0;
+
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+#sign-up {
+    background-color: mediumblue;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+#sign-up:hover {
+    background-color: darkblue;
+}
+
+
+
+footer {
+    background-color: #001a33;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+   margin: 0;
+    font-size: 14px;
+}
+
+
+.page2-overskrift {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+.post {
+    background-color: lightgray;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid navy;
+}
+
+.post:hover {
+    background-color: grey;
+}
+
+.post h2 {
+    margin-top: 0;
+    color: black;
+    font-size: 18px;
+}
+
+#posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.page3-overskrift {
+    font-family: "Roboto-Bold", sans-serif;
+}
+
+
+#vaer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.weather-card h3 {
+    font-family: "Roboto-Bold", sans-serif;
+
+}
+.weather-card {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto-Regular", sans-serif;
+}
